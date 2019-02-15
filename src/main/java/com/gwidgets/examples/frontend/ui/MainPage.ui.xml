@@ -1,0 +1,13 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder">
+	<ui:style>
+	</ui:style>
+	<div>
+      <h1>Welcome to GWT + Spring Security</h1>
+        <br></br>
+      <div>
+        <div>Welcome, <span ui:field="currentUser"></span> </div>
+      </div>
+        <button ui:field="logoutButton"> Logout here</button>
+    </div>
+</ui:UiBinder>
